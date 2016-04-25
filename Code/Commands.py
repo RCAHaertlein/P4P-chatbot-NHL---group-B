@@ -31,7 +31,7 @@ class Questions:
             bot.sendMessage(chat_id=update.message.chat_id,
                         text="Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.")
 
-    dispatcher.addTelegramMessageHandler(result())
+    dispatcher.addTelegramMessageHandler(result)
 
     # from Commands import Basic
 
