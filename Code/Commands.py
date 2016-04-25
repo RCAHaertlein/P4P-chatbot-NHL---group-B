@@ -6,7 +6,7 @@ class Questions:
 
     updater.start_polling()
 
-    def veelgesteld(bot, update):
+    def result(bot, update):
         msg = update.message.text.lower()
         if "deeltijdopleiding" in msg:
             if "lang" in msg:
@@ -20,22 +20,18 @@ class Questions:
         if "lestijd" in msg:
             bot.sendMessage(chat_id=update.message.chat_id, text="Informatie over de lestijden kun je vinden bij de opleidingsinformatie (nhl.nl). Meestal worden de lessen ’s avonds gegeven. Bij sommige opleidingen vinden de lessen overdag plaats of moet je overdag stage lopen (denk bijvoorbeeld aan de lerarenopleidingen).")
 
-    dispatcher.addTelegramMessageHandler(veelgesteld)
-
-    def money(bot, update):
-        msg = update.message.text.lower()
-        if "geld" in msg:
-            bot.sendMessage(chat_id=update.message.chat_id, text="Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.")
-    dispatcher.addTelegramMessageHandler(money)
-
-    def other(bot, update):
-        msg = update.message.text.lower()
         if "info" in msg or "informatie" in msg:
-            bot.sendMessage(chat_id=update.message.chat_id, text="Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)")
+            bot.sendMessage(chat_id=update.message.chat_id,
+                        text="Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)")
         if "studiefinanciering" in msg:
-            bot.sendMessage(chat_id=update.message.chat_id, text="Studiefinanciering kun je snel en makkelijk online aanvragen. Het enige dat je daarvoor nodig hebt, is een eigen DigiD met sms-functie. Je logt in bij DUO.nl met je DigiD. Zodra je bent ingelogd, zie je een keuzemenu aan de linkerkant. Een van de keuzes in het menu is 'Studiefinanciering aanvragen'.")
-    dispatcher.addTelegramMessageHandler(other)
+            bot.sendMessage(chat_id=update.message.chat_id,
+                        text="Studiefinanciering kun je snel en makkelijk online aanvragen. Het enige dat je daarvoor nodig hebt, is een eigen DigiD met sms-functie. Je logt in bij DUO.nl met je DigiD. Zodra je bent ingelogd, zie je een keuzemenu aan de linkerkant. Een van de keuzes in het menu is 'Studiefinanciering aanvragen'.")
 
+        if "geld" in msg:
+            bot.sendMessage(chat_id=update.message.chat_id,
+                        text="Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.")
+
+    dispatcher.addTelegramMessageHandler(result())
 
     # from Commands import Basic
 

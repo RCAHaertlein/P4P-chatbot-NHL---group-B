@@ -12,9 +12,7 @@ print([u.message.text for u in updates])
 questions = Commands.Questions
 
 def echo(bot, update):
-    questions.veelgesteld(bot, update)
-    questions.money(bot, update)
-    questions.other(bot, update)
+    questions.result(bot, update)
 
 # from Commands import Basic
 
