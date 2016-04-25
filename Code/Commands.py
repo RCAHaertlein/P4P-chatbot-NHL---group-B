@@ -16,6 +16,10 @@ class Questions:
 
         if "vrijstelling" in msg:
             bot.sendMessage(chat_id=update.message.chat_id, text="Dat hangt af van jouw vooropleiding en werkervaring. Veel opleidingen voeren een persoonlijk intakegesprek met aankomende studenten. Tijdens dit gesprek wordt bekeken of je in aanmerking komt voor een verkort traject. Ook kun je bellen met een contactpersoon van de opleiding")
+
+        if "lestijd" in msg:
+            bot.sendMessage(chat_id=update.message.chat_id, text="Informatie over de lestijden kun je vinden bij de opleidingsinformatie (nhl.nl). Meestal worden de lessen ’s avonds gegeven. Bij sommige opleidingen vinden de lessen overdag plaats of moet je overdag stage lopen (denk bijvoorbeeld aan de lerarenopleidingen).")
+
     dispatcher.addTelegramMessageHandler(veelgesteld)
 
     def money(bot, update):
