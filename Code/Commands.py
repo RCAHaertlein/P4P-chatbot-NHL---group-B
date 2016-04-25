@@ -7,14 +7,16 @@ class Questions:
     updater.start_polling()
 
     def money(bot, update):
-        if "geld" in update.message.text.lower():
+        msg = update.message.text.lower()
+        if "geld" in msg:
             bot.sendMessage(chat_id=update.message.chat_id, text="Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.")
     dispatcher.addTelegramMessageHandler(money)
 
     def other(bot, update):
-        if "info" in update.message.text.lower() or "informatie" in update.message.text.lower():
+        msg = update.message.text.lower()
+        if "info" in msg or "informatie" in msg:
             bot.sendMessage(chat_id=update.message.chat_id, text="Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)")
-        if "studiefinanciering" in update.message.text.lower():
+        if "studiefinanciering" in msg:
             bot.sendMessage(chat_id=update.message.chat_id, text="Studiefinanciering kun je snel en makkelijk online aanvragen. Het enige dat je daarvoor nodig hebt, is een eigen DigiD met sms-functie. Je logt in bij DUO.nl met je DigiD. Zodra je bent ingelogd, zie je een keuzemenu aan de linkerkant. Een van de keuzes in het menu is 'Studiefinanciering aanvragen'.")
     dispatcher.addTelegramMessageHandler(other)
 
