@@ -6,6 +6,18 @@ class Questions:
 
     updater.start_polling()
 
+    def veelgesteld(bot, update):
+        msg = update.message.text.lower()
+        if "deeltijdopleiding" in msg:
+            if "lang" in msg:
+                bot.sendMessage(chat_id=update.message.chat_id, text="De duur van een opleiding hangt af van verschillende factoren. Associate degrees duren 2 jaar, bacheloropleidingen 4 jaar en masteropleidingen 2 à 3 jaar. Studenten die al eerder een hbo- of universitaire opleiding hebben afgerond, komen vaak in aanmerking voor een verkort traject. Ook verwante vooropleidingen en werkervaring kunnen vrijstellingen opleveren.")
+                return
+            bot.sendMessage(chat_id=update.message.chat_id, text="NHL Hogeschool biedt circa 40 deeltijdopleidingen aan op twee verschillende niveaus: bachelor en master. Volg je liever een (korte) cursus of leergang? Ook dat kan bij de NHL.")
+
+        if "vrijstelling" in msg:
+            bot.sendMessage(chat_id=update.message.chat_id, text="Dat hangt af van jouw vooropleiding en werkervaring. Veel opleidingen voeren een persoonlijk intakegesprek met aankomende studenten. Tijdens dit gesprek wordt bekeken of je in aanmerking komt voor een verkort traject. Ook kun je bellen met een contactpersoon van de opleiding")
+    dispatcher.addTelegramMessageHandler(veelgesteld)
+
     def money(bot, update):
         msg = update.message.text.lower()
         if "geld" in msg:

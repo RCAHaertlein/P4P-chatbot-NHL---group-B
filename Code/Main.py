@@ -1,6 +1,6 @@
 import telegram
 from telegram.ext import Updater
-import Commands as Command
+import Commands
 
 
 bot = telegram.Bot(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
@@ -9,9 +9,10 @@ print(bot.getMe())
 updates = bot.getUpdates()
 print([u.message.text for u in updates])
 
-questions = Command.Questions
+questions = Commands.Questions
 
 def echo(bot, update):
+    questions.veelgesteld(bot, update)
     questions.money(bot, update)
     questions.other(bot, update)
 
