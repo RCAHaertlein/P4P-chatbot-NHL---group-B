@@ -11,7 +11,9 @@ print([u.message.text for u in updates])
 
 questions = Commands.Questions
 
+
 def echo(bot, update):
+    print("Echo")
     questions.result(bot, update)
 
 # from Commands import Basic
