@@ -1,15 +1,2 @@
-Code/telegram/__pycache__/update.cpython-35.pyc
-Code/__pycache__/Commands.cpython-35.pyc
-Code/telegram/__pycache__/choseninlineresult.cpython-35.pyc
-Code/telegram/__pycache__/bot.cpython-35.pyc
-Code/telegram/__pycache__/inlinequery.cpython-35.pyc
-Code/telegram/__pycache__/inlinequeryresult.cpython-35.pyc
-Code/telegram/__pycache__/message.cpython-35.pyc
-Code/telegram/__pycache__/parsemode.cpython-35.pyc
-Code/telegram/ext/__pycache__/__init__.cpython-35.pyc
-Code/telegram/ext/__pycache__/dispatcher.cpython-35.pyc
-Code/telegram/ext/__pycache__/jobqueue.cpython-35.pyc
-Code/telegram/ext/__pycache__/updater.cpython-35.pyc
-Code/telegram/utils/__pycache__/updatequeue.cpython-35.pyc
-Code/telegram/utils/__pycache__/validate.cpython-35.pyc
-Code/telegram/utils/__pycache__/webhookhandler.cpython-35.pyc
+*.pyc
+*.xml
