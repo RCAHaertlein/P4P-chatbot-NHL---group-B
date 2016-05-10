@@ -1,6 +1,6 @@
 vrijstelling||Dat hangt af van jouw vooropleiding en werkervaring. Veel opleidingen voeren een persoonlijk intakegesprek met aankomende studenten. Tijdens dit gesprek wordt bekeken of je in aanmerking komt voor een verkort traject. Ook kun je bellen met een contactpersoon van de opleiding.
 verkort||Dat hangt af van jouw vooropleiding en werkervaring. Veel opleidingen voeren een persoonlijk intakegesprek met aankomende studenten. Tijdens dit gesprek wordt bekeken of je in aanmerking komt voor een verkort traject. Ook kun je bellen met een contactpersoon van de opleiding.
-lestijd||Informatie over de lestijden kun je vinden bij de opleidingsinformatie (nhl.nl). Meestal worden de lessen ’s avonds gegeven. Bij sommige opleidingen vinden de lessen overdag plaats of moet je overdag stage lopen (denk bijvoorbeeld aan de lerarenopleidingen).
+lestijd||Informatie over de lestijden kun je vinden bij de opleidingsinformatie (www.nhl.nl). Meestal worden de lessen ’s avonds gegeven. Bij sommige opleidingen vinden de lessen overdag plaats of moet je overdag stage lopen (denk bijvoorbeeld aan de lerarenopleidingen).
 studiefinanciering||Studiefinanciering kun je snel en makkelijk online aanvragen. Het enige dat je daarvoor nodig hebt, is een eigen DigiD met sms-functie. Je logt in bij DUO.nl met je DigiD. Zodra je bent ingelogd, zie je een keuzemenu aan de linkerkant. Een van de keuzes in het menu is 'Studiefinanciering aanvragen'.
 geld||Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
 deeltijd||NHL Hogeschool biedt circa 40 deeltijdopleidingen aan op twee verschillende niveaus: bachelor en master. Volg je liever een (korte) cursus of leergang? Ook dat kan bij de NHL.
@@ -8,8 +8,10 @@ deeltijd&&lang||De duur van een opleiding hangt af van verschillende factoren. A
 kost||De opleidingskosten bestaan voor een groot deel uit het collegegeld. De hoogte van het collegegeld is afhankelijk van een aantal factoren. Het is bijvoorbeeld belangrijk of je al eerder een hbo- of universitaire opleiding gevolgd hebt? Meer informatie kun je vinden bij Studiekosten. Naast het collegegeld betaal je boekenkosten en kosten voor andere studiematerialen. De hoogte van deze kosten zijn afhankelijk van de opleiding die je gaat volgen.
 start||De meeste bachelor- en masteropleidingen starten per 1 september. Bij sommige opleidingen is het mogelijk om in februari in te stromen. Voor meer informatie over februari-instroom kun je terecht bij het Studieadviescentrum. Cursussen en leergangen starten het hele jaar door
 geen diploma||Als je niet in het bezit bent van een havo-, vwo- of mbo-diploma (niveau 4), maar je bent wel 21 jaar of ouder, dan kom je in aanmerking voor het 21+ toelatingsonderzoek. Als je slaagt voor dit onderzoek, kun je worden toegelaten tot de opleiding van jouw keuze.
+website||Je kan de NHL website vinden op www.nhl.nl.
 info||Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
 hallo||Hallo, waar kan ik je mee helpen?
 wie ben jij||Ik ben de Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
-probleem||Wat is je probleem?
-studie||Dit is een heel groot onderwerp.
+wie ben jij||Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
+probleem||Wat is je probleem?nhl||Wat wil je weten over de NHL?
+mooi&&school||De NHL is een hele mooie school, kom maar eens kijken op een van onze open dagen.
