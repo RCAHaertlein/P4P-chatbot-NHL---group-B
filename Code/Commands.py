@@ -36,19 +36,13 @@ def answer(update):
             key_new = key.split("&&")
             if key_new[0] in msg and key_new[1] in msg:
                 return newDict[key]
-<<<<<<< HEAD
 
-        if msg.find(key) != -1:
-            return newDict[key]
-=======
-            
         if msg.find(key) > priority:
             priority = msg.find(key)
             key_answer = key
 
     if key_answer != "":
         return newDict[key_answer]
->>>>>>> 7c61165839adc986215a5b8f1f5e80512bcc5ec3
 
     return "Ik heb hier geen antwoord op."
 
