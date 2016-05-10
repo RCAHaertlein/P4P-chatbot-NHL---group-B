@@ -12,3 +12,4 @@ info||Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
 hallo||Hallo, waar kan ik je mee helpen?
 wie ben jij||Ik ben de Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
 probleem||Wat is je probleem?
+studie||Dit is een heel groot onderwerp.
