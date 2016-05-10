@@ -13,3 +13,4 @@ Code/telegram/ext/__pycache__/updater.cpython-35.pyc
 Code/telegram/utils/__pycache__/updatequeue.cpython-35.pyc
 Code/telegram/utils/__pycache__/validate.cpython-35.pyc
 Code/telegram/utils/__pycache__/webhookhandler.cpython-35.pyc
+*.xml
