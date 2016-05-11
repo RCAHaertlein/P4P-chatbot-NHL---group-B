@@ -2,3 +2,10 @@ hallo : Hallo, waar kan ik je mee helpen?
 hoe gaat het? : Het gaat goed met mij, bedankt.
 graag gedaan : Ik heb hier geen antwoord op. 
 
+is er ook een hbo in brabant jonge? : Ik heb hier geen antwoord op. 
+zijn er knappe docenten? : Ik heb hier geen antwoord op. 
+waar heb je wel een antwoord op? : Ik heb hier geen antwoord op. 
+waar ligt het nhl? : Wat wil je weten over de NHL?
+
+welke opleidingen zijn er? : Ik heb hier geen antwoord op. 
+hoe lang duurt een les? : Ik heb hier geen antwoord op. 
