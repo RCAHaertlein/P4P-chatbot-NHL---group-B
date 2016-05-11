@@ -19,6 +19,7 @@ class Questions:
     # y = Basic.Start()
     # x = Basic.FirstContact()
 
+
 newDict = {}
 with open('Answers.txt', 'r') as f:
     for line in f:
@@ -36,7 +37,7 @@ def answer(update):
             key_new = key.split("&&")
             if key_new[0] in msg and key_new[1] in msg:
                 return newDict[key]
-
+            
         if msg.find(key) > priority:
             priority = msg.find(key)
             key_answer = key

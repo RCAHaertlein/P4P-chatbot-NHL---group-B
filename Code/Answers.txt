@@ -11,9 +11,16 @@ geen diploma||Als je niet in het bezit bent van een havo-, vwo- of mbo-diploma (
 website||Je kan de NHL website vinden op www.nhl.nl.
 info||Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
 hallo||Hallo, waar kan ik je mee helpen?
+<<<<<<< HEAD
 hoi||Hoi, waar kan ik je mee helpen?
 wie ben jij||Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
 probleem||Wat is je probleem?
 leuk||Bedankt, het is ook heel leuk.
 nhl||Wat wil je weten over de NHL?
 mooi&&school||De NHL is een hele mooie school, kom maar eens kijken op een van onze open dagen.
+=======
+wie ben jij||Ik ben de Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
+wie ben jij||Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
+probleem||Wat is je probleem?nhl||Wat wil je weten over de NHL?
+mooi&&school||De NHL is een hele mooie school, kom maar eens kijken op een van onze open dagen.
+>>>>>>> 3f1fcbceb040bf9f519a18052f39741458313f2c
