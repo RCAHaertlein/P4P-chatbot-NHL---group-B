@@ -1,0 +1,4 @@
+hallo : Hallo, waar kan ik je mee helpen?
+hoe gaat het? : Het gaat goed met mij, bedankt.
+graag gedaan : Ik heb hier geen antwoord op. 
+

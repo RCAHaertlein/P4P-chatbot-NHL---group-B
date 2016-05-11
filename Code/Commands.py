@@ -35,14 +35,18 @@ with open('Basic.txt', 'r') as f:
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-
     ans = find(newDict,msg)
-    if ans != "":
-        return ans
-    else:
-        ans = find(basicDict,msg)
+    with open('Questions.txt', 'a') as f:
+        f.write(msg)
         if ans != "":
+            f.write(" : " + ans + "\n")
             return ans
+        else:
+            ans = find(basicDict,msg)
+            if ans != "":
+                f.write(" : " + ans + "\n")
+                return ans
+        f.write(" : Ik heb hier geen antwoord op. \n")
     return "Ik heb hier geen antwoord op."
 
 
