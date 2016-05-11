@@ -21,29 +21,39 @@ class Questions:
 
 
 newDict = {}
+basicDict = {}
 with open('Answers.txt', 'r') as f:
     for line in f:
         splitLine = line.split("||")
         newDict[splitLine[0]] = splitLine[1]
+with open('Basic.txt', 'r') as f:
+    for line in f:
+        splitLine = line.split("||")
+        basicDict[splitLine[0]] = splitLine[1]
 
 
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-    priority = -1
-    key_answer = ""
-    for key in newDict:
+
+    ans = find(newDict,msg)
+    if ans != "":
+        return ans
+    else:
+        ans = find(basicDict,msg)
+        if ans != "":
+            return ans
+    return "Ik heb hier geen antwoord op."
+
+
+def find(dicti,msg):
+    for key in dicti:
         if key.find("&&") != -1:
             key_new = key.split("&&")
             if key_new[0] in msg and key_new[1] in msg:
-                return newDict[key]
-            
-        if msg.find(key) > priority:
-            priority = msg.find(key)
-            key_answer = key
+                return dicti[key]
 
-    if key_answer != "":
-        return newDict[key_answer]
+        if msg.find(key) > -1:
+            return dicti[key]
 
-    return "Ik heb hier geen antwoord op."
-
+    return ""

@@ -9,12 +9,7 @@ kost||De opleidingskosten bestaan voor een groot deel uit het collegegeld. De ho
 start||De meeste bachelor- en masteropleidingen starten per 1 september. Bij sommige opleidingen is het mogelijk om in februari in te stromen. Voor meer informatie over februari-instroom kun je terecht bij het Studieadviescentrum. Cursussen en leergangen starten het hele jaar door
 geen diploma||Als je niet in het bezit bent van een havo-, vwo- of mbo-diploma (niveau 4), maar je bent wel 21 jaar of ouder, dan kom je in aanmerking voor het 21+ toelatingsonderzoek. Als je slaagt voor dit onderzoek, kun je worden toegelaten tot de opleiding van jouw keuze.
 website||Je kan de NHL website vinden op www.nhl.nl.
-info||Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
-hallo||Hallo, waar kan ik je mee helpen?
-hoi||Hoi, waar kan ik je mee helpen?
 wie ben jij||Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
-probleem||Wat is je probleem?
-leuk||Bedankt, het is ook heel leuk.
-nhl||Wat wil je weten over de NHL?
 mooi&&school||De NHL is een hele mooie school, kom maar eens kijken op een van onze open dagen.
 open dag||De open dag is elk jaar weer op een andere dag kijk op www.nhl.nl voor meer informatie.
+ov||Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
