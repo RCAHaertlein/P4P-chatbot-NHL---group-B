@@ -4,4 +4,7 @@ hoi||Hoi, waar kan ik je mee helpen?
 probleem||Wat is je probleem?
 leuk||Bedankt, het is ook heel leuk.
 nhl||Wat wil je weten over de NHL?
+nhl&&ligt||Het NHL ligt in Leeuwarden.
 gaat||Het gaat goed met mij, bedankt.
+antwoord||Dit is een antwoord.
+eisma||Sicco Eisma Docent friesepoort.

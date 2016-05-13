@@ -2,7 +2,7 @@ hallo : Hallo, waar kan ik je mee helpen?
 hoe gaat het? : Het gaat goed met mij, bedankt.
 graag gedaan : Ik heb hier geen antwoord op. 
 
-<<<<<<< HEAD
+
 is er ook een hbo in brabant jonge? : Ik heb hier geen antwoord op. 
 zijn er knappe docenten? : Ik heb hier geen antwoord op. 
 waar heb je wel een antwoord op? : Ik heb hier geen antwoord op. 
@@ -10,8 +10,7 @@ waar ligt het nhl? : Wat wil je weten over de NHL?
 
 welke opleidingen zijn er? : Ik heb hier geen antwoord op. 
 hoe lang duurt een les? : Ik heb hier geen antwoord op. 
-=======
-ik ben je moeder! : Ik heb hier geen antwoord op. 
+
 ik heb een vraag over het ov : Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
 hallo : Hallo, waar kan ik je mee helpen?
 
@@ -25,4 +24,54 @@ welke opleidingen kan ik allemaal volgen : Ik heb hier geen antwoord op.
 hoeveel kost pizza bij domino's? : De opleidingskosten bestaan voor een groot deel uit het collegegeld. De hoogte van het collegegeld is afhankelijk van een aantal factoren. Het is bijvoorbeeld belangrijk of je al eerder een hbo- of universitaire opleiding gevolgd hebt? Meer informatie kun je vinden bij Studiekosten. Naast het collegegeld betaal je boekenkosten en kosten voor andere studiematerialen. De hoogte van deze kosten zijn afhankelijk van de opleiding die je gaat volgen.
 
 heb ik een laptop nodig? : Ik heb hier geen antwoord op. 
->>>>>>> c63796a09d658228f175aedbc582bac4d517d8d7
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+welke opleidingen zijn er? : Voor meer informatie over de opleidingen die je op het NHL kan volgen moet je naar de website www.nhl.nl
+
+hoelang duurt een hbo opleiding? : Ik heb hier geen antwoord op. 
+waar staat hbo voor? : Ik heb hier geen antwoord op. 
+kosten : De opleidingskosten bestaan voor een groot deel uit het collegegeld. De hoogte van het collegegeld is afhankelijk van een aantal factoren. Het is bijvoorbeeld belangrijk of je al eerder een hbo- of universitaire opleiding gevolgd hebt? Meer informatie kun je vinden bij Studiekosten. Naast het collegegeld betaal je boekenkosten en kosten voor andere studiematerialen. De hoogte van deze kosten zijn afhankelijk van de opleiding die je gaat volgen.
+
+welke hbo opleiding moet ik doen : Ik heb hier geen antwoord op. 
+? : Ik heb hier geen antwoord op. 
+wat zijn de kosten : De opleidingskosten bestaan voor een groot deel uit het collegegeld. De hoogte van het collegegeld is afhankelijk van een aantal factoren. Het is bijvoorbeeld belangrijk of je al eerder een hbo- of universitaire opleiding gevolgd hebt? Meer informatie kun je vinden bij Studiekosten. Naast het collegegeld betaal je boekenkosten en kosten voor andere studiematerialen. De hoogte van deze kosten zijn afhankelijk van de opleiding die je gaat volgen.
+
+hoe zit het met de instap toets vanaf 21 jaar : Ik heb hier geen antwoord op. 
+wat is handig om te gebruiken voor het kiezen van een studie? : Ik heb hier geen antwoord op. 
+kun je een studie in elke stad volgen? : Ik heb hier geen antwoord op. 
+doorstroom : Ik heb hier geen antwoord op. 
+hoe kan doorstromen? : Ik heb hier geen antwoord op. 
+wat voor opleiding heb ik nodig voor it : Ik heb hier geen antwoord op. 
+diploma : Afhankelijk van de opleiding die je wil gaan volgen, meestal moet het wel binnen de richting vallen.
+
+lestojden : Ik heb hier geen antwoord op. 
+lestijden : Informatie over de lestijden kun je vinden bij de opleidingsinformatie (www.nhl.nl). Meestal worden de lessen ’s avonds gegeven. Bij sommige opleidingen vinden de lessen overdag plaats of moet je overdag stage lopen (denk bijvoorbeeld aan de lerarenopleidingen).
+
+aanmelding : Ik heb hier geen antwoord op. 
+eisma : Sicco Eisma Docent friesepoort
+hoe gaat de aanmelding : Het gaat goed met mij, bedankt.
+
+vrijstelling eisma : Sicco Eisma Docent friesepoort
+informatie over ov : Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
+
+over mijn lijk : Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
+
+over mijn body eisma : Sicco Eisma Docent friesepoort.
+ov jij en ik : Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
+
+test : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+hoe kom ik aan geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+mijn iphone heeft geen wifi : Ik heb hier geen antwoord op. 
+kan ik fries studeren : Ik heb hier geen antwoord op. 
+welke opleidingen kan ik volgen : Ik weet niet welke oplediging jij moet doen, maar je kan meer dan je denkt. Zoek dit zelf uit bij een van onze open dagen.
+
+wat is een open dag : De open dag is elk jaar weer op een andere dag kijk op www.nhl.nl voor meer informatie.
+
+hoe heet jij : Ik heb hier geen antwoord op. 
+wie ben jij : Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
+
+ik ben dick : Ik heb hier geen antwoord op. 

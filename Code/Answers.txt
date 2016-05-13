@@ -12,7 +12,13 @@ website||Je kan de NHL website vinden op www.nhl.nl.
 wie ben jij||Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
 mooi&&school||De NHL is een hele mooie school, kom maar eens kijken op een van onze open dagen.
 open dag||De open dag is elk jaar weer op een andere dag kijk op www.nhl.nl voor meer informatie.
-ov||Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
+ov ||Je komt toch altijd te laat met het OV. (Dit is een debug text, want we hebben hier nog niks voor)
 diploma||Afhankelijk van de opleiding die je wil gaan volgen, meestal moet het wel binnen de richting vallen.
 opleidingen||Voor meer informatie over de opleidingen die je op het NHL kan volgen moet je naar de website www.nhl.nl
 laptop||Bij de meeste opleiding wordt verwacht dat je een laptop hebt.
+opleidingskosten||De kosten van de opleidingen zijn verschillend, kijk op www.studielink.nl voor meer informatie.
+les&&duur||De les duur is afhankelijk van de les die je volgt als een student, de minimale lestijd is 45 minuten.
+hbo&&duur||Een HBO opleiding duur ongeveer 4 jaar.
+opleiding&&welke||Ik weet niet welke oplediging jij moet doen, maar je kan meer dan je denkt. Zoek dit zelf uit bij een van onze open dagen.
+instap toets||We hebben hier nog geen antwoord op.
+kiezen||Er zijn inderdaad veel keuzes op het gebied van opleidingen, je kan ze allemaal bezoeken tijden de open dag.
