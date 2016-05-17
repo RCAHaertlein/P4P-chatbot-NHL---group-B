@@ -1,10 +1,8 @@
 from telegram.ext import Updater
 
-
 class Questions:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
     dispatcher = updater.dispatcher
-
     updater.start_polling()
 
     def result(bot, update):
@@ -19,18 +17,19 @@ class Questions:
     # y = Basic.Start()
     # x = Basic.FirstContact()
 
-
 newDict = {}
 basicDict = {}
-with open('Answers.txt', 'r') as f:
-    for line in f:
-        splitLine = line.split("||")
-        newDict[splitLine[0]] = splitLine[1]
-with open('Basic.txt', 'r') as f:
-    for line in f:
-        splitLine = line.split("||")
-        basicDict[splitLine[0]] = splitLine[1]
 
+def reload():
+    with open('Answers.txt', 'r') as f:
+        for line in f:
+            splitLine = line.split("||")
+            newDict[splitLine[0]] = splitLine[1]
+    with open('Basic.txt', 'r') as f:
+        for line in f:
+            splitLine = line.split("||")
+            basicDict[splitLine[0]] = splitLine[1]
+reload();
 
 def answer(update):
     msg = update.message.text.lower()

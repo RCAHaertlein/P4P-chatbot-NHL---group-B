@@ -75,3 +75,21 @@ hoe heet jij : Ik heb hier geen antwoord op.
 wie ben jij : Ik ben de NHL Helpdesk Bot, gemaakt om jou te helpen met al je NHL vragen.
 
 ik ben dick : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+ik heb een probleem : Wat is je probleem?
+
+informatica : Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hoi : Hoi, waar kan ik je mee helpen?
+
+opleiding : Ik heb hier geen antwoord op. 
+alles goed : Ik heb hier geen antwoord op. 
+ben je onzeker ? : Ik heb hier geen antwoord op. 
+nhl : Wat wil je weten over de NHL?
+
+openingstijden : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
