@@ -4,7 +4,6 @@ class Questions:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
     dispatcher = updater.dispatcher
     updater.start_polling()
-
     def result(bot, update):
         ans = answer(update)
         if ans != "":

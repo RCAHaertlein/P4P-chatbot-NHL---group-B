@@ -93,7 +93,32 @@ nhl : Wat wil je weten over de NHL?
 openingstijden : Ik heb hier geen antwoord op. 
 hallo : Hallo, waar kan ik je mee helpen?
 
+<<<<<<< HEAD
 iets : Ik heb hier geen antwoord op. 
 hallo : Hallo, waar kan ik je mee helpen?
 
 heey : Ik heb hier geen antwoord op. 
+=======
+hallo : Hallo, waar kan ik je mee helpen?
+
+wie the : Ik heb hier geen antwoord op. 
+yeaaa : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+jammer hoor : Ik heb hier geen antwoord op. 
+nog : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+heey : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+heey : Ik heb hier geen antwoord op. 
+wtf : Ik heb hier geen antwoord op. 
+heey : Ik heb hier geen antwoord op. 
+sadas : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+hey : Ik heb hier geen antwoord op. 
+>>>>>>> e3b2b3a64cf54d3bfa11cef748795a397aa07076

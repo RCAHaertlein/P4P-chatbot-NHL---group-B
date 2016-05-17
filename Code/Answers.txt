@@ -22,3 +22,5 @@ hbo&&duur||Een HBO opleiding duur ongeveer 4 jaar.
 opleiding&&welke||Ik weet niet welke oplediging jij moet doen, maar je kan meer dan je denkt. Zoek dit zelf uit bij een van onze open dagen.
 instap toets||We hebben hier nog geen antwoord op.
 kiezen||Er zijn inderdaad veel keuzes op het gebied van opleidingen, je kan ze allemaal bezoeken tijden de open dag.
+ov-kaart||als je begint met studeren kun je de ov aanvragen. zodra je deze hebt kun jij gratis reizen. de kosten van de ov-kaart worden omgezet tot een gift als je binnen 10 jaar een diploma hebt.
+smart||i know i am quite smart
