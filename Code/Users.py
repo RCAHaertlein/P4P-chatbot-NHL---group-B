@@ -28,7 +28,6 @@ def answer(update):
     data_high = datapy.get("Answers.txt")
     data_low = datapy.get("Basic.txt")
 
-    print(data_high)
     ans = find(data_high.dictionary, msg)
     with open('Questions.txt', 'a') as f:
         f.write(msg)

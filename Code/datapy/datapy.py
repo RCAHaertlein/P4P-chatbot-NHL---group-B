@@ -7,7 +7,6 @@ databases = {}
 class Datapy:
     def __init__(self, file):
         new(file)
-        get(file)
 
     def get(self,file):
         return get(file)

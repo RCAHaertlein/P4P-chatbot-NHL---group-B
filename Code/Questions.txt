@@ -221,3 +221,22 @@ hallo : Hallo, waar kan ik je mee helpen?
 
 niks : Ik heb hier geen antwoord op. 
 niks : maar nu wel
+hallo : Hallo, waar kan ik je mee helpen?
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+ik wil geld van school : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+wie is liesbeth : de moeder van wander.
+gfbgf : Ik heb hier geen antwoord op. 
+simpel : Ik heb hier geen antwoord op. 
+ssd : Ik heb hier geen antwoord op. 
+simepl : Ik heb hier geen antwoord op. 
+smpel : Ik heb hier geen antwoord op. 
+simpel : Ik heb hier geen antwoord op. 
+test : simpel
+test : Ik heb hier geen antwoord op. 
+waar : Ik heb hier geen antwoord op. 
+wie is de admin? : Ik heb hier geen antwoord op. 
+wie is de admin? : dat is natuurlijk wander.
+wie is de admin? : gekke wanderhbo&&duur

@@ -8,4 +8,4 @@ ligt&&nhl||Het NHL ligt in Leeuwarden.
 gaat||Het gaat goed met mij, bedankt.
 antwoord||Dit is een antwoord.
 eisma||Sicco Eisma Docent friesepoort.
-bedankt||Graag gedaan
+bedankt||Graag gedaan.
