@@ -5,23 +5,36 @@ updater = Updater(token='224044671:AAG8-QYX2obXKvUpHcXVwJxM2Yk4WwsouxE')
 dispatcher = updater.dispatcher
 updater.start_polling()
 
-Database_Primary = Database("Answers.txt")
-Database_Secondary = Database("Basic.txt")
-
+data = Database("Answers.txt")
 class Controller:
-    def admin(bot,update):
-        bot.chat_id = update.message.chat_id
+
+    def admin(bot, update):
         msg = update.message.text.lower()
         print("Admin Command: " + msg)
         if msg.startswith("#add "):
-            bot.sendMessage(chat_id=bot.chat_id, text="Thanks for making me smarter")
-            command_add(msg[5:])
+            if command_add(msg[5:]) == True:
+                bot.sendMessage(chat_id=update.message.chat_id,text="De vraag is netjes toegevoegd")
+            else:
+                bot.sendMessage(chat_id=update.message.chat_id,
+                                text="Deze vraag bestaat al, probeer iets anders.")
+
+
+
 
     dispatcher.addTelegramMessageHandler(admin)
 
 def command_add(msg):
     arr = msg.split("||")
     key = arr[0]
-    ans = arr[1]
-    Database_Primary.add(key,ans)
-    print("Added Response: "+msg)
+    # Act if key is nothing
+    res = arr[1]
+    # Act if response is nothing
+    if key in data.dictionary:
+        #bot.sendMessage(chat_id=update.message.chat_id, text="I'm sorry but there already is an answer to this keyword")
+        return False
+    else:
+        data.add(key, res)
+        print("Added Response: " + msg)
+        data.reload()
+        return True
+        #bot.sendMessage(chat_id=update.message.chat_id, text="The answer to " + key + " has been successfully added.")

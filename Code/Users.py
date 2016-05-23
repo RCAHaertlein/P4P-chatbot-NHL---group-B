@@ -1,9 +1,15 @@
 from telegram.ext import Updater
+from custom.database import Database
 
-class Questions:
+database_high = Database("Answers.txt")
+database_low = Database("Basic.txt")
+
+
+class Controller:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
     dispatcher = updater.dispatcher
     updater.start_polling()
+
     def result(bot, update):
         ans = answer(update)
         if ans != "":
@@ -16,31 +22,18 @@ class Questions:
     # y = Basic.Start()
     # x = Basic.FirstContact()
 
-newDict = {}
-basicDict = {}
-
-def reload():
-    with open('Answers.txt', 'r') as f:
-        for line in f:
-            splitLine = line.split("||")
-            newDict[splitLine[0]] = splitLine[1]
-    with open('Basic.txt', 'r') as f:
-        for line in f:
-            splitLine = line.split("||")
-            basicDict[splitLine[0]] = splitLine[1]
-reload();
 
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-    ans = find(newDict,msg)
+    ans = find(database_high.dictionary, msg)
     with open('Questions.txt', 'a') as f:
         f.write(msg)
         if ans != "":
             f.write(" : " + ans + "\n")
             return ans
         else:
-            ans = find(basicDict,msg)
+            ans = find(database_low.dictionary, msg)
             if ans != "":
                 f.write(" : " + ans + "\n")
                 return ans

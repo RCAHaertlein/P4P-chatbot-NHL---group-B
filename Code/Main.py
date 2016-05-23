@@ -1,6 +1,6 @@
 import telegram
 from telegram.ext import Updater
-import Commands
+import Users
 import Admin
 
 user_bot = telegram.Bot(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
@@ -10,11 +10,11 @@ print(user_bot.getMe())
 print(admin_bot.getMe())
 bot_updates = user_bot.getUpdates()
 admin_updates = admin_bot.getUpdates();
-print([u.message.text for u in bot_updates])
-print([u.message.text for u in admin_updates])
+#print([u.message.text for u in bot_updates])
+#print([u.message.text for u in admin_updates])
 
-questions = Commands.Questions
-admin = Admin.Controller
+users = Users.Controller()
+admin = Admin.Controller()
 
 
 # from Commands import Basic

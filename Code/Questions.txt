@@ -115,3 +115,58 @@ hallo : Hallo, waar kan ik je mee helpen?
 hallo : Hallo, waar kan ik je mee helpen?
 
 hey : Ik heb hier geen antwoord op. 
+wiskunde : Ik heb hier geen antwoord op. 
+nhl : Wat wil je weten over de NHL?
+
+waar : Ik heb hier geen antwoord op. 
+nhl adres : Wat wil je weten over de NHL?
+
+waar nhl : Wat wil je weten over de NHL?
+
+lit nhl : Wat wil je weten over de NHL?
+
+ligt nhl : Wat wil je weten over de NHL?
+
+licht nhl : Wat wil je weten over de NHL?
+
+info nhl : Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
+
+laptop : Bij de meeste opleiding wordt verwacht dat je een laptop hebt.
+
+ovchip : Ik heb hier geen antwoord op. 
+hoi : Hoi, waar kan ik je mee helpen?
+
+mijn pas doet het niet : Ik heb hier geen antwoord op. 
+kut ding : Ik heb hier geen antwoord op. 
+hoeveel is twee keer de helft? : Ik heb hier geen antwoord op. 
+ik wil geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hoer : Ik heb hier geen antwoord op. 
+sorr : Ik heb hier geen antwoord op. 
+vergeef me : Ik heb hier geen antwoord op. 
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+help : Ik heb hier geen antwoord op. 
+hoe zit het met mijn geldzaken? : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+ov : Ik heb hier geen antwoord op. 
+diploma : Afhankelijk van de opleiding die je wil gaan volgen, meestal moet het wel binnen de richting vallen.
+
+krijg ik ook studiefinanciering? : Studiefinanciering kun je snel en makkelijk online aanvragen. Het enige dat je daarvoor nodig hebt, is een eigen DigiD met sms-functie. Je logt in bij DUO.nl met je DigiD. Zodra je bent ingelogd, zie je een keuzemenu aan de linkerkant. Een van de keuzes in het menu is 'Studiefinanciering aanvragen'.
+
+heey : 
+
+hallo : 
+
+nee? : 
+
+heey : 
+
+geld : 
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+bedankt : Ik heb hier geen antwoord op. 
+bedankt : Graag gedaan
