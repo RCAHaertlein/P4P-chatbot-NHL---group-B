@@ -1,5 +1,5 @@
 from telegram.ext import Updater
-from custom.datapy import Datapy
+from datapy.datapy import Datapy
 
 datapy = Datapy("Basic.txt")
 

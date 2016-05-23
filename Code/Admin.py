@@ -1,5 +1,5 @@
 from telegram.ext import Updater
-from custom.datapy import Datapy
+from datapy.datapy import Datapy
 
 updater = Updater(token='224044671:AAG8-QYX2obXKvUpHcXVwJxM2Yk4WwsouxE')
 dispatcher = updater.dispatcher

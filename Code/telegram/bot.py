@@ -223,7 +223,7 @@ class Bot(TelegramObject):
           reply_to_message_id:
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
-            Additional interface options. A JSON-serialized object for a custom
+            Additional interface options. A JSON-serialized object for a datapy
             reply keyboard, instructions to hide keyboard or to force a reply
             from the user. [Optional]
 
@@ -306,7 +306,7 @@ class Bot(TelegramObject):
           reply_to_message_id:
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
-            Additional interface options. A JSON-serialized object for a custom
+            Additional interface options. A JSON-serialized object for a datapy
             reply keyboard, instructions to hide keyboard or to force a reply
             from the user. [Optional]
 
@@ -365,7 +365,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
@@ -413,7 +413,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
@@ -453,7 +453,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
@@ -501,7 +501,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
@@ -551,7 +551,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
@@ -592,7 +592,7 @@ class Bot(TelegramObject):
             If the message is a reply, ID of the original message. [Optional]
           reply_markup:
             Additional interface options. A JSON-serialized object for a
-            custom reply keyboard, instructions to hide keyboard or to force a
+            datapy reply keyboard, instructions to hide keyboard or to force a
             reply from the user. [Optional]
 
         Returns:
