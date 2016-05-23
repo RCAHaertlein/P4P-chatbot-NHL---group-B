@@ -3,7 +3,7 @@ class Database:
     dictionary = {}
 
     def __init__(self, file):
-        self.file = file;
+        self.file = file
         self.reload()
 
     def add(self, key, msg):

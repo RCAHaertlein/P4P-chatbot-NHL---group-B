@@ -1,9 +1,7 @@
 from telegram.ext import Updater
-from custom.database import Database
+from custom.datapy import Datapy
 
-database_high = Database("Answers.txt")
-database_low = Database("Basic.txt")
-
+datapy = Datapy("Basic.txt")
 
 class Controller:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
@@ -12,6 +10,7 @@ class Controller:
 
     def result(bot, update):
         ans = answer(update)
+        print("Outcomming Message ( " + ans + " )")
         if ans != "":
             bot.sendMessage(chat_id=update.message.chat_id, text=ans)
 
@@ -26,14 +25,18 @@ class Controller:
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-    ans = find(database_high.dictionary, msg)
+    data_high = datapy.get("Answers.txt")
+    data_low = datapy.get("Basic.txt")
+
+    print(data_high)
+    ans = find(data_high.dictionary, msg)
     with open('Questions.txt', 'a') as f:
         f.write(msg)
         if ans != "":
             f.write(" : " + ans + "\n")
             return ans
         else:
-            ans = find(database_low.dictionary, msg)
+            ans = find(data_low.dictionary, msg)
             if ans != "":
                 f.write(" : " + ans + "\n")
                 return ans

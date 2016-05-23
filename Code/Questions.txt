@@ -180,3 +180,44 @@ bedankt : Graag gedaan
 =======
 >>>>>>> e3b2b3a64cf54d3bfa11cef748795a397aa07076
 >>>>>>> 2761a94a0d3fe673cfdae4baade98eee873d0617
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+testgeld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+meegeld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+ik wil meer weten over geld : zoals?
+heeygeld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+heeyhallo : Hallo, waar kan ik je mee helpen?
+
+mndshallo : Hallo, waar kan ik je mee helpen?
+
+geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor een specifiek antwoord gebruik je bijvoorbeeld studiefinanciering.
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+niks : Ik heb hier geen antwoord op. 
+okey : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+hallo : Hallo, waar kan ik je mee helpen?
+
+niks : Ik heb hier geen antwoord op. 
+niks : maar nu wel
