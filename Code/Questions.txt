@@ -93,6 +93,12 @@ nhl : Wat wil je weten over de NHL?
 openingstijden : Ik heb hier geen antwoord op. 
 hallo : Hallo, waar kan ik je mee helpen?
 
+<<<<<<< HEAD
+iets : Ik heb hier geen antwoord op. 
+hallo : Hallo, waar kan ik je mee helpen?
+
+heey : Ik heb hier geen antwoord op. 
+=======
 hallo : Hallo, waar kan ik je mee helpen?
 
 wie the : Ik heb hier geen antwoord op. 
@@ -115,6 +121,7 @@ hallo : Hallo, waar kan ik je mee helpen?
 hallo : Hallo, waar kan ik je mee helpen?
 
 hey : Ik heb hier geen antwoord op. 
+<<<<<<< HEAD
 wiskunde : Ik heb hier geen antwoord op. 
 nhl : Wat wil je weten over de NHL?
 
@@ -170,3 +177,6 @@ geld : Je kunt meer informatie vinden over je geldzaken op duo.nl, (TIP: Voor ee
 
 bedankt : Ik heb hier geen antwoord op. 
 bedankt : Graag gedaan
+=======
+>>>>>>> e3b2b3a64cf54d3bfa11cef748795a397aa07076
+>>>>>>> 2761a94a0d3fe673cfdae4baade98eee873d0617
