@@ -29,11 +29,8 @@ class Controller:
             else:
                 bot.sendMessage(chat_id=update.message.chat_id,
                                 text="Deze vraag bestaat niet, probeer iets anders.")
-
-
-
-
     dispatcher.addTelegramMessageHandler(admin)
+
 
 def command_add(msg):
     data = datapy.get("Answers.txt")
@@ -50,6 +47,7 @@ def command_add(msg):
         print("Added Response: " + msg)
         return True
 
+
 def command_replace(msg):
     data = datapy.get("Answers.txt")
     arr = msg.split("||")
@@ -65,6 +63,7 @@ def command_replace(msg):
         return True
     else:
         return False
+
 
 def command_remove(key):
     data = datapy.get("Answers.txt")
