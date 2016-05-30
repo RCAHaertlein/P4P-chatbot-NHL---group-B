@@ -1,8 +1,7 @@
 from telegram.ext import Updater
-from datapy.datapy import Datapy
+from tinydb import TinyDB, Query
 
-datapy = Datapy("Basic.txt")
-
+db = TinyDB('db.json')
 class Controller:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
     dispatcher = updater.dispatcher
@@ -25,32 +24,17 @@ class Controller:
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-    data_high = datapy.get("Answers.txt")
-    data_low = datapy.get("Basic.txt")
-
-    ans = find(data_high.dictionary, msg)
-    with open('Questions.txt', 'a') as f:
-        f.write(msg)
-        if ans != "":
-            f.write(" : " + ans + "\n")
-            return ans
-        else:
-            ans = find(data_low.dictionary, msg)
-            if ans != "":
-                f.write(" : " + ans + "\n")
-                return ans
-        f.write(" : Ik heb hier geen antwoord op. \n")
-    return "Ik heb hier geen antwoord op."
+    return find(msg)
 
 
-def find(dicti,msg):
-    for key in dicti:
-        if key.find("&&") != -1:
-            key_new = key.split("&&")
+
+def find(msg):
+    Response = Query()
+    for rap in db.all():
+        if rap['type'].find("&&") != -1:
+            key_new = rap['type'].split("&&")
             if key_new[0] in msg and key_new[1] in msg:
-                return dicti[key]
-
-        if msg.find(key) > -1:
-            return dicti[key]
-
-    return ""
+                return rap['response']
+        if rap['type'] in msg:
+            return rap['response']
+    return "Ik heb hier geen antwoord op."
