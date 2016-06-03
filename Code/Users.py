@@ -1,7 +1,9 @@
 from telegram.ext import Updater
 from tinydb import TinyDB, Query
+import datetime
 
 db = TinyDB('db.json')
+uqdb = TinyDB('uqdb.json')
 class Controller:
     updater = Updater(token='210767489:AAG1Hfr1e3gdI7Ib6XiCB8Ff5pbFEhvgrrU')
     dispatcher = updater.dispatcher
@@ -24,17 +26,23 @@ class Controller:
 def answer(update):
     msg = update.message.text.lower()
     print("Incoming Message ( " + msg + " )")
-    return find(msg)
+    ans = find(msg, "important")
+    if ans == "":
+        date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        newest = {'type': msg, 'datetime': date}
+        uqdb.insert(newest)
+        return "Ik heb hier geen antwoord op"
+    return ans
 
 
 
-def find(msg):
+def find(msg, category):
     Response = Query()
-    for rap in db.all():
+    for rap in db.search(Response.category == category):
         if rap['type'].find("&&") != -1:
             key_new = rap['type'].split("&&")
             if key_new[0] in msg and key_new[1] in msg:
                 return rap['response']
         if rap['type'] in msg:
             return rap['response']
-    return "Ik heb hier geen antwoord op."
+    return ""
