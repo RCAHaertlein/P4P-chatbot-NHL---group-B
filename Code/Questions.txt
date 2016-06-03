@@ -240,8 +240,12 @@ waar : Ik heb hier geen antwoord op.
 wie is de admin? : Ik heb hier geen antwoord op. 
 wie is de admin? : dat is natuurlijk wander.
 wie is de admin? : gekke wanderhbo&&duur
+<<<<<<< HEAD
 informatica : Waar wil je meer informatie over? (bv. Geld, OV-chipkaart, etc.)
 
 hallo : Hallo, waar kan ik je mee helpen?
 
 ov : Ik heb hier geen antwoord op. 
+=======
+#add heeelp||noooos : Ik heb hier geen antwoord op. 
+>>>>>>> 38150324cca16d73ca55db3d4757b708f0ffd1b2
