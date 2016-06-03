@@ -29,11 +29,8 @@ class Controller:
             else:
                 bot.sendMessage(chat_id=update.message.chat_id,
                                 text="Deze vraag bestaat niet, probeer iets anders.")
-
-
-
-
     dispatcher.addTelegramMessageHandler(admin)
+
 
 def command_add(msg):
     if msg.find("||") < 1:
@@ -55,6 +52,7 @@ def command_add(msg):
         print("Added Response: " + msg)
         return True
 
+
 def command_replace(msg):
     arr = msg.split("||")
     key = arr[0].lower()
@@ -63,6 +61,7 @@ def command_replace(msg):
             return True
         return False
     return False
+
 
 def command_remove(key):
     # Act if response is nothing

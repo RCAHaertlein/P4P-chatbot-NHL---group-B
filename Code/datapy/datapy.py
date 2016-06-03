@@ -4,6 +4,7 @@ from datapy.database import Database
 
 databases = {}
 
+
 class Datapy:
     def __init__(self, file):
         new(file)
@@ -18,10 +19,12 @@ def new(file):
     databases[file] = Database(file);
     return True
 
+
 def get(file):
     if find(file):
         return databases[file]
     return None
+
 
 # Check if a database already exists
 def find(file):
