@@ -40,7 +40,7 @@ def command_add(msg):
     res = arr[1]
     cat = 'important'
     if len(arr) > 2:
-        cat = arr[2]
+        cat = arr[2].lower()
 
     newest = {'type': key, 'response': res, 'category': cat}
     Answers = Query()
