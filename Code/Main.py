@@ -10,15 +10,5 @@ print(user_bot.getMe())
 print(admin_bot.getMe())
 admin_updates = admin_bot.getUpdates();
 bot_updates = user_bot.getUpdates()
-#print([u.message.text for u in bot_updates])
-#print([u.message.text for u in admin_updates])
-
 admin = Admin.Controller()
 users = Users.Controller()
-
-
-# from Commands import Basic
-
-# y = Basic.Start()
-# x = Basic.FirstContact()
-
