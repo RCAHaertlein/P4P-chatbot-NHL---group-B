@@ -38,7 +38,7 @@ def answer(update):
             date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             newest = {'type': msg, 'datetime': date}
             uqdb.insert(newest)
-            return "Ik heb hier geen antwoord op"
+            return "Ik heb hier helaas geen antwoord op. Neem contact op met het NHL studentenloket, via e-mail studentloket@nhl.nl / telefoon 058-251 of met bureau inschrijving, via e-mail bur.inschrijving@nhl.nl / telefoon 058-2511888 of met het studie- en adviescentrum, via e-mail studieadvies@nhl.nl / telefoon 058-2511888"
     return ans
 
 
