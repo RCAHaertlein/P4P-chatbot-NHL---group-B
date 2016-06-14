@@ -4,6 +4,7 @@ import datetime
 
 db = TinyDB('db.json')
 uqdb = TinyDB('uqdb.json')
+# Categories Dict based on the userID
 userCat = {}
 
 
@@ -20,20 +21,20 @@ class Controller:
 
     dispatcher.addTelegramMessageHandler(result)
 
-    # from Commands import Basic
-
-    # y = Basic.Start()
-    # x = Basic.FirstContact()
-
 
 def answer(update):
+    # Wander: This is my only piece of code Reinder has written in the project.
+    # (
     msg = update.message.text.lower()
+    # )
+
     print("Incoming Message ( " + msg + " )")
 
     ans = find(msg, update.message.chat_id)
     if ans == "":
         ans = find(msg, update.message.chat_id)
         if ans == "":
+            # Create an instance in the database for every message we were not able to solve.
             date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             newest = {'type': msg, 'datetime': date}
             uqdb.insert(newest)
@@ -43,7 +44,7 @@ def answer(update):
 
 
 def find(msg, id):
-
+# Wander: May not really be used but we are at the end of the project so I definately will not be touching this.
     try:
         category = userCat[id]
     except:
